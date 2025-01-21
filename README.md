@@ -1,8 +1,42 @@
-# React + Vite
+# Movies Search App 🎥
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+The **Movies Search App** is a React-based web application that allows users to search for movies using the [OMDB API](https://www.omdbapi.com/). Users can view detailed information about movies, filter by type, and manage a list of favorites. The app is styled using **Tailwind CSS** for a modern and responsive design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## Features
+
+- **Search Movies**: Users can search for movies by title or keyword.
+- **Movie Details**: View detailed information about a movie, including:
+  - Poster
+  - Title
+  - Release Year
+  - Genre
+  - Plot Summary
+  - Cast
+- **Pagination**: Navigate through large sets of search results.
+- **Error Handling**: Graceful handling of errors, including cases where no results are found.
+- **Routing**: Seamless navigation between the search page and movie details page using React Router.
+
+---
+
+## Tech Stack
+
+- **React.js**: Frontend framework for building the application.
+- **React Router**: For navigation and routing between pages.
+- **JavaScript**: Core programming language for functionality.
+- **Tailwind CSS**: For styling and responsive design.
+- **OMDB API**: Movie data source.
+
+---
+
+## Deployment
+This project is deployed on **Netlify**. You can access the live application here: 
+
+---
+
+## Acknowledgments
+- OMDB API for providing the movie data.
+- Netlify for hosting the application.
