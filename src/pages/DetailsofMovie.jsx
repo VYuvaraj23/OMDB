@@ -2,7 +2,7 @@ import { useContext } from "react"
 import { SearchContext } from "../context/CreateContext"
 import { Link } from "react-router"
 
-function Movie() {
+function DetailsofMovie() {
   const { state } = useContext(SearchContext)
   const movie =state.imdb
   return (
@@ -65,4 +65,4 @@ function Movie() {
   )
 }
 
-export default Movie
+export default DetailsofMovie
